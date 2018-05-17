@@ -47,11 +47,17 @@
       document.getElementById("overlay").style.display = "none";
     }
   </script> 
-<body id='mainbody' onload= "on()" on>
+<body id='mainbody' onload="off()" >
+    <div class="navbar">
+        <a href="#">Link1</a>
+        <a href="#">Link2</a>
+        <a href="#">Link3</a>
+        <a href="#" class="right">Link</a>
+      </div>
   <div id="underneath">
     <h1>YOOOOOOOOOOOOOOOOO</h1>
   </div>
-  <div id = 'overlay' style="position: static">
+  <div id = 'overlay' style="position: static" onload="on()">
     <h1>Kate Lorenzen</h1>
       
      <p>
