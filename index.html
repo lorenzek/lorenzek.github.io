@@ -20,9 +20,18 @@
     }
     </style>
 <body>
-  <div id = 'overlay'>
+  <div id = 'overlay' onload="on()">
     <h1>Kate Lorenzen</h1>
     <p>CS Student From Purdue</p>
   </div>
+  <script>
+    function on() {
+      document.getElementById("overlay").style.display = "block";
+    }
+      
+    function off() {
+      document.getElementById("overlay").style.display = "none";
+    }
+  </script> 
 </body>
 </html>
