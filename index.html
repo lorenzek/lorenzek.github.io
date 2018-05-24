@@ -41,12 +41,12 @@
   #AboutPanel, #About {
     padding: 5px;
     text-align: center;
-    background-color: #e5eecc;
-    border: solid 1px #c3c3c3;
+    background-color: transparent;
+    border: solid 1px purple;
 }
 
   #AboutPanel {
-    padding: 50px;
+    padding: 10px;
     display: none;
   }
 
@@ -99,14 +99,27 @@
 
 <body id='mainbody' onload="off()" >
   <!-- <div id="overlay" onclick="off()"></div> -->
-  <div class="navbar">
+  <!-- <div class="navbar">
     <a href="#">About</a>
     <a href="#">Odyssey</a>
     <a href="#">Resume</a>
     <a href="#" class="left">GitHub</a>
     <a href="#" class="left">LinkedIn</a>
     <a href="#" class="left">Email</a>
-  </div>
+  </div> -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSiteName</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Resume</a></li>
+        <li><a href="#">Odyssey</a></li>
+      </ul>
+    </div>
+  </nav>
   <div id="underneath" class="container">
     <h1>Kate Lorenzen</h1>
     <button onclick="on()">Overlay</button>
