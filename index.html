@@ -49,6 +49,32 @@
     padding: 30px;
     display: none;
   }
+  /* Add an orange color to all icons and set the font-size */
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  .bg-1 { 
+      background-color: #1abc9c;
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d;
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff;
+      color: #555555;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
 
   /* Style the top navigation bar*/
   /*.navbar {
@@ -97,7 +123,7 @@
   });
 </script> 
 
-<body id='mainbody' onload="off()" >
+<body id='mainbody' onload="off()" data-spy="scroll" data-target=".navbar" data-offset="50">
   <!-- <div id="overlay" onclick="off()"></div> -->
   <!-- <div class="navbar">
     <a href="#">About</a>
@@ -113,14 +139,19 @@
         <a class="navbar-brand" href="#">WebSiteName</a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
+        <li class="active"><a href="#section1">Home</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Resume</a></li>
         <li><a href="#">Odyssey</a></li>
       </ul>
     </div>
   </nav>
-  <div id="underneath" class="container" style="margin-top:50px">
+  <div id="section1" class="container-fluid bg-1 text-center">
+    <h3>Who Am I?</h3>
+    <img src="bird.jpg" class="img-circle" alt="Bird" width="350" height="350">
+    <h3>I'm an adventurer</h3>
+  </div>
+  <div id="section2" class="container-fluid bg-2 text-center" style="margin-top:50px">
     <h1>Kate Lorenzen</h1>
     <div class="container-fluid text-center">
       <h2>SERVICES</h2>
@@ -162,7 +193,7 @@
         </div>
       </div>
     </div>
-    <button class="btn btn-primary" onclick="on()">Overlay</button>
+    <!-- <button class="btn btn-primary" onclick="on()">Overlay</button>
     <div id="About">
       <h3>About Me</h3>
     </div>
@@ -170,9 +201,11 @@
       <p>
         CS is love - CS is life
       </p>
-    </div>
+    </div> -->
   </div>
-  
+  <div id="section3" class="container-fluid bg-3 text-center">
+    <h3>You Made It To 3</h3>
+  </div>
   <div id = 'overlay' onclick="off()">
     <h1>~Overlay~</h1> 
     <p>
