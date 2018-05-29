@@ -121,6 +121,10 @@
         $("#AboutPanel").slideDown("slow");
     });
   });
+
+  function projectOpen() {
+    window.open("projects.html","_self")
+  }
 </script> 
 
 <body id='mainbody' onload="off()" data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -136,11 +140,11 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">WebSiteName</a>
+        <a class="navbar-brand" href="#">Kate Lorenzen</a>
       </div>
       <ul class="nav navbar-nav">
         <li><a href="#section1">Home</a></li>
-        <li><a href="#section2">Projects</a></li>
+        <li><a onclick="projectOpen()">Projects</a></li>
         <li><a href="#section3">Resume</a></li>
         <li><a href="#section4">Contact</a></li>
         <li><a href="#">Media</a></li>
@@ -149,9 +153,12 @@
     </div>
   </nav>
   <div id="section1" class="container-fluid2 bg-1 text-center">
-    <h3>Who Am I?</h3>
+    <h3>Hello!</h3>
     <img src="" class="img-circle" alt="Bird" width="350" height="350">
     <h3>I'm an adventurer</h3>
+    <br>
+    <br>
+    <br>
   </div>
   <div id="section2" class="container-fluid2 bg-2 text-center" style="margin-top:50px">
     <h1>Kate Lorenzen</h1>
@@ -217,9 +224,9 @@
     </h3>
     <div class="row">
       <p>Contact us and we'll get back to you within 24 hours.</p>
-      <hr>
-      <hr>
-      <hr>
+      <br>
+      <br>
+      <br>
       <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
       <p><span class="glyphicon glyphicon-phone"></span> +00 1515151515</p>
       <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
