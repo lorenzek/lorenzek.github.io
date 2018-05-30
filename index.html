@@ -130,7 +130,7 @@
   }
   $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#section3']").on('click', function(event) {
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== ""){
       // Prevent default anchor click behavior
@@ -141,7 +141,7 @@
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
+      $('html, mainbody').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
    
@@ -161,9 +161,10 @@
       </div>
       <ul class="nav navbar-nav">
         <li><a onclick="mainOpen()">Home</a></li>
-        <li><a onclick="projectOpen()">Projects</a></li>
+        <li><a href="#section2">Skills</a></li>
         <li><a href="#section3">Resume</a></li>
         <li><a href="#section4">Contact</a></li>
+        <li><a onclick="projectOpen()">Projects</a></li>
         <li><a href="#">Media</a></li>
         <li><a href="#">Odyssey</a></li>
       </ul>
@@ -280,10 +281,10 @@
       <p><span class="glyphicon glyphicon-envelope"></span> myemail@something.com</p> 
     </div>
   </div>
-  <div id = 'overlay' onclick="off()">
+  <!-- <div id = 'overlay' onclick="off()">
     <h1>~Overlay~</h1> 
     <p>
     </p> 
-  </div>
+  </div> -->
 </body>
 </html>
