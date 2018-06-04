@@ -19,7 +19,7 @@
     }
     $(document).ready(function(){
   // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+  $(".navbar a, footer a[href='#myFooter']").on('click', function(event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== ""){
       // Prevent default anchor click behavior
@@ -48,8 +48,8 @@
             <a class="navbar-brand" href="#">Kate Lorenzen</a>
           </div>
           <ul class="nav navbar-nav">
-            <li><a href="/#about">Home</a></li>
-            <li><a href="../#skillset">Skills</a></li>
+            <li><a href="#about">Home</a></li>
+            <li><a href="#skillset">Skills</a></li>
             <li><a href="../#section3">Resume</a></li>
             <li><a href="../#contact">Contact</a></li>
             <li><a onclick="projectOpen()">Projects</a></li>
