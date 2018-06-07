@@ -30,7 +30,7 @@
 
       // Using jQuery's animate() method to add smooth page scroll
       // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
+      $('html, projectbody').animate({
         scrollTop: $(hash).offset().top
       }, 900, function(){
    
@@ -41,7 +41,7 @@
   });
  })
 </script> 
-<body id="projectbody">
+<body id="projectbody" data-spy="scroll" data-target=".navbar" data-offset="50">
   <nav class="navbar navbar-inverse navbar-fixed-top">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -74,7 +74,7 @@
   </div>
   </section>
   <footer class="container-fluid text-center">
-      <a href="#myFooter" title="To Top">
+      <a href="#projectbody" title="To Top">
         <span class="glyphicon glyphicon-chevron-up"></span>
       </a>
       <p>Made by Kate Lorenzen</p>
