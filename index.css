@@ -1,42 +1,5 @@
 
-  #overlay {
-    position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
-    width: 100%; /* Full width (cover the whole page) */
-    height: 100%; /* Full height (cover the whole page) */
-    top: 0; 
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
-    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
-    cursor: pointer; /* Add a pointer on hover */
-    /* overflow-y: scroll; */
-  }
-  #text{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    font-size: 50px;
-    color: white;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-  }
-  #noscroll {
-    overflow: hidden;
-  }
 
-  #AboutPanel, #About {
-    padding: 5px;
-    text-align: center;
-    background-color: transparent;
-    border: solid 1px purple;
-}
-
-  #AboutPanel {
-    padding: 30px;
-    display: none;
-  }
   /* Add an orange color to all icons and set the font-size */
   .logo-small {
     color: #f4511e;
@@ -44,11 +7,11 @@
   }
 
   .logo {
-    color: #f4511e;
+    color: turquoise;
     font-size: 200px;
   }
   .bg-1 { 
-      background-color: white;
+      background-color: white; 
       color: teal;
   }
   .bg-2 { 
@@ -112,4 +75,43 @@
     background-color: #000;
     opacity: 0.5;
     color: white;
-  } */ 
+  } 
+  */ 
+  /* #overlay {
+    position: fixed; /* Sit on top of the page content */
+    /*display: none; /* Hidden by default */
+    /*width: 100%; /* Full width (cover the whole page) */
+    /*height: 100%; /* Full height (cover the whole page) */
+    /*top: 0; 
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    /*z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    /*cursor: pointer; /* Add a pointer on hover */
+    /* overflow-y: scroll; */
+  /*} */
+  /* #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  }
+  #noscroll {
+    overflow: hidden;
+  }
+
+  #AboutPanel, #About {
+    padding: 5px;
+    text-align: center;
+    background-color: transparent;
+    border: solid 1px purple;
+}
+
+  #AboutPanel {
+    padding: 30px;
+    display: none;
+  } */
