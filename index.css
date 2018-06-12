@@ -1,15 +1,5 @@
 
-
-  /* Add an orange color to all icons and set the font-size */
-  .logo-small {
-    color: #f4511e;
-    font-size: 50px;
-  }
-
-  .logo {
-    color: turquoise;
-    font-size: 200px;
-  }
+/* Backgrounds and section text colors */ 
   .bg-1 { 
       background-color: white; 
       color: teal;
@@ -22,23 +12,38 @@
       background-color: lightblue;
       color: blue;
   }
+
+/* Container format */
   .container-fluid2 {
       padding-top: 70px;
       padding-bottom: 70px;
   }
 
+/* Icon formatting */
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
       color: navy;
   }
-  .logo-small {
-      color: whitesmoke;
+  .icon-small {
+      color: black;
       font-size: 50px;
   }
-  .logo-link {
-      color: whitesmoke;
+  .icon-link {
+      color: lightskyblue;
   }
+  .icon-home {
+      color: white;
+      font-size: 20px;
+  }
+
+/* Logo formatting */
+  .logo {
+    color: turquoise;
+    font-size: 200px;
+  }
+
+/* Link formatting and coloring */
   a {
     color: lightblue;
   }
