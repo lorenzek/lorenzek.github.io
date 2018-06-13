@@ -61,14 +61,14 @@
   } */
 
   /* Style the navigation bar links */
-  /* .navbar a {
+ .navbar a {
     float: right;
     display: block;
     color: blue;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
-  } */
+  } 
 
   /* left-aligned link */
   /* .navbar a.left {
