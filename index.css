@@ -1,17 +1,34 @@
+/* Color Theme Info */
+/* #3D8ABE main color */
+/* #0579BC secondary */
+/* #038BA4 ternary */
+/* #A0C0D8 light/faded blue highlights */
+/* #F3F2F1 whites */
+
 
 /* Backgrounds and section text colors */ 
   .bg-1 { 
-      background-color: white; 
-      color: teal;
+      background-color: #F3F2F1; 
+      color: black;
   }
   .bg-2 { 
-      background-color: whitesmoke;
-      color: navy;
+      background-color: #A0C0D8;
+      color: black;
   }
   .bg-3 { 
-      background-color: lightblue;
-      color: blue;
+      background-color: #3D8ABE;
+      color: black;
   }
+
+/* Navbar Text Colors */
+  .navbar-text-links {
+      color: #3D8ABE;
+  }
+
+/* Section Headers */
+  .header-text {
+      color: #3D8ABE;
+  }  
 
 /* Container format */
   .container-fluid2 {
@@ -23,32 +40,32 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: navy;
+      color: #0579BC;
   }
   .icon-small {
-      color: black;
+      color: #038BA4;
       font-size: 50px;
   }
   .icon-link {
-      color: lightskyblue;
+      color: #038BA4;
   }
   .icon-home {
-      color: navy;
+      color: #0579BC;
       font-size: 20px;
   }
 
 /* Logo formatting */
   .logo {
-    color: turquoise;
+    color: #3D8ABE;
     font-size: 200px;
   }
 
 /* Link formatting and coloring */
   a {
-    color: lightblue;
+    color: #038BA4;
   }
   a:hover {
-    color: blue;
+    color: #3D8ABE;
   }
   p, a span {
     color: lightgrey;
