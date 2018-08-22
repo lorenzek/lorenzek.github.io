@@ -11,12 +11,8 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="icon" type="image/x-icon" href="/images/favicon.ico.png">
 </head>
-
-
-
-<body id='mainbody' data-spy="scroll" data-target=".navbar" data-offset="50">
-  <script>
-    $(document).ready(function(){
+<script>
+  $(document).ready(function(){
       // Add smooth scrolling to all links in navbar + footer link
       $(".navbar a, footer a[href='#mainbody']").on('click', function(event) {
         // Make sure this.hash has a value before overriding default behavior
@@ -39,7 +35,11 @@
         } // End if
       });
     })
-    
+</script>
+
+
+<body id='mainbody' data-spy="scroll" data-target=".navbar" data-offset="50">
+  <script>
     var coll = document.getElementsByClassName("collapsible");
     var i;
     
@@ -82,12 +82,25 @@
    
     </div>
   </section>
+  <p>Collapsible Set:</p>
+  <button class="collapsible">Front End Languages</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Back End Languages</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Interfaces</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <button class="collapsible">Other</button>
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+  <br>
   <section id="skill-section">
-      <!-- style="margin-top:50px" -->
-    <div id="skillset" class="container-fluid2 bg-2 text-center " >
-      <h1>Skills</h1>
-    <div class="container-fluid text-center">
-      <br>
       <p>Collapsible Set:</p>
       <button class="collapsible">Front End Languages</button>
       <div class="content">
@@ -105,6 +118,11 @@
       <div class="content">
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
+      <br>
+      <!-- style="margin-top:50px" -->
+    <div id="skillset" class="container-fluid2 bg-2 text-center " >
+      <h1>Skills</h1>
+    <div class="container-fluid text-center">
       <br>
       <div class="col-xs-12 col-sm-10 col-md-8 col-sm-offset-1 col-md-offset-2">
           <h2>Programming Languages and Interfaces</h2>
